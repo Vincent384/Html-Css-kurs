@@ -1,0 +1,12 @@
+@mixin hoverOpacity{
+    &:hover{
+         opacity: 0.8; 
+         cursor: pointer;
+    }
+}
+@mixin hoverFilter{
+    &:hover{
+        filter:brightness(80%);
+        cursor: pointer;
+    }
+}
